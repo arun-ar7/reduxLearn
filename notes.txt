@@ -1,0 +1,42 @@
+video -1 : 
+    Introduction to Redux, react, 
+video -2 : 
+    Setup the project structure and install the redux library to the project
+video - 3 : 
+    Three core concepts of Redux
+        cake shop - shop, customer's intention to buy a cake, shopkeeper
+        redux - store, action , reducer
+            store - holds the state of the application
+            action - describes the changes in the state of the application
+            reducer - carries out the state transition depending on the action
+vide - 4 : 
+    Three principles of redux in simple words : 
+        1. maintain application state in a single object which would be managed by redux store
+            eg : {
+                no_of_cakes : 10
+            }
+        2. the only way to change the state is to emit an action, an object describing what happened
+            eg : {
+                type : BUY_CAKE
+            }
+        3. To specify how the state tree is transformed by actions, you write your pure reducers
+            Reducer : 
+                (prevState, action)=>{
+                    return newState;
+                }
+            . the reducer function should return the new state instead of updating the new state
+            eg : 
+                our Reducer is the shopkeeper.
+                he will take one cake and reduce the count by one and give the cake to the customer by action specified
+        OverView : 
+            Javascript app is subscribed to redux store (whenever there is a change it will update the application)
+            The app should dispatch an action to Reducer for making changes in state
+            Reducer is the function which handles the changes in the state of the application
+            Redux store stores the states of the applications.
+video - 5 : 
+    Focused on implementing actions in redux
+video - 6 : 
+    Focused on implementing Reducers in redux
+video - 7 : 
+    Focused on implementing and learning redux store
+            
