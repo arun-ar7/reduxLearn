@@ -39,4 +39,25 @@ video - 6 :
     Focused on implementing Reducers in redux
 video - 7 : 
     Focused on implementing and learning redux store
-            
+        Only one redux store for one react application
+        Responsibilitites of Redux store : 
+            i) Holds application state
+            ii) getState()
+            iii) dispatch(action)
+            iv) subscribe(listener())
+            v) unregistering of listeners via function returned by subscribe(listner) in (iv)
+video - 8 : 
+    Cakes and Ice Creams!
+    The cake shop have two shop keepers for handling sales of cakes and ice Creams
+
+video - 9 : 
+    Multiple Reducers : 
+        add state no_of_ice_creams
+        create action creator, handle action in reducer,
+        split the initial states and reducers into two(required number),
+        there is a problem in combing reducers to pass inside store.
+video - 10 : 
+    Combine Reducers : 
+        require redux.combineReducers
+        pass an object to combineReducers - {state_key : reducer_function_name}
+    
